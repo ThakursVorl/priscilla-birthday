@@ -1,59 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Birthday, Priscilla!</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .poem-container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        h1 {
-            color: #333;
-            font-size: 24px;
-        }
-        p {
-            color: #666;
-            font-size: 18px;
-            line-height: 1.6;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Profile Card</title>
 </head>
-<body>
-    <div class="poem-container">
-        <h1>Happy Birthday, Priscilla!</h1>
-        <p>
-            In the canvas of life, there's a hue so bright,<br>
-            A name that shines like the morning light.<br>
-            Priscilla, your presence is a gift,<br>
-            On this special day, let joy be rift.<br>
-            <br>
-            With every smile, you light up the room,<br>
-            Your laughter, a melody that blooms.<br>
-            In your eyes, a world of wonder lies,<br>
-            In your heart, a love that never dies.<br>
-            <br>
-            May this day be filled with joy and cheer,<br>
-            May your dreams take flight, far and near.<br>
-            Priscilla, you're a star that guides,<br>
-            In this vast universe, you're the tide.<br>
-            <br>
-            Happy Birthday, dear Priscilla,<br>
-            May your life be a beautiful symphony.<br>
-        </p>
+<body style="font-family: Arial, sans-serif; background-color: #f0f0f0; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+
+  <div style="width: 300px; background-color: #fff; border-radius: 4px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
+
+    <!-- Profile Image Section -->
+    <div style="width: 100%; height: 150px; background-color: #ddd; display: flex; justify-content: center; align-items: center;">
+      <img src="dabingastro.png" alt="Profile Picture" style="width: 500px; height: 225px; border-radius: 50%;">
     </div>
+
+    <!-- Profile Information -->
+    <div style="padding: 15px;">
+      <h2 style="font-size: 24px; margin-bottom: 10px;">Terence</h2>
+      <p style="font-size: 16px; color: #888; margin-bottom: 10px;">Student</p>
+
+      <!-- Clickable Email -->
+      <p style="font-size: 14px; margin: 5px 0;">
+        Email: <a href="mailto:owooterence09@gmail.com" style="text-decoration: none; color: #007BFF;">owooterence09@gmail.com</a>
+      </p>
+
+      <!-- Clickable WhatsApp Number -->
+      <p style="font-size: 14px; margin: 5px 0;">
+        WhatsApp: <a href="https://wa.me/233592885088" target="_blank" style="text-decoration: none; color: #007BFF;">+233 592 885 088</a>
+      </p>
+    </div>
+
+    <!-- Instagram Link -->
+    <div style="padding: 10px; background-color: #f9f9f9;">
+      <a href="https://www.instagram.com/turkey_fritz" target="_blank" style="text-decoration: none; color: #333; font-size: 16px; transition: color 0.3s ease;">
+        Visit My Instagram
+      </a>
+    </div>
+  </div>
+
 </body>
 </html>
